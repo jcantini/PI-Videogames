@@ -1,0 +1,35 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:space-around;
+    padding: 10px;
+    margin: 0;
+
+}
+.card {
+    background-color: rgb(241, 210, 169);
+    height: 200px;
+    width: 250px;
+    margin: 5px;
+    padding: 1px;
+    border:3px solid rgb(128, 21, 95);
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 2px;
+    padding: 1px;  
+}
+
+p {
+    margin: 5px;
+    padding: 1px;  
+}
+ .imag {
+    height: 110px;
+    width: 180px; 
+    margin: 1px;
+    padding: 3px;
+    border: 2px solid black;
+ }
