@@ -3,6 +3,7 @@ const { Router } = require('express');
 // Importar todos los routers;
 const vgameRouter = require('./videogames');
 const genreRouter = require('./genre');
+const platformRouter = require('./platforms');
 
 const router = Router();
 
@@ -11,6 +12,7 @@ const router = Router();
 
 router.use('/videogames',vgameRouter);
 router.use('/genres',genreRouter);
+router.use('/platforms',platformRouter);
 
 
 module.exports = router;
